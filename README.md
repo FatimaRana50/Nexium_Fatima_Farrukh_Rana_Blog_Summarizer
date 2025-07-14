@@ -1,36 +1,65 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📝 Blog Summarizer
 
-## Getting Started
+A full-stack web app that extracts content from blogs, summarizes it in English, translates the summary to Urdu, and allows exporting the Urdu summary to PDF. Built using **Next.js**, **Supabase**, **MongoDB**, and **ShadCN UI**.
 
-First, run the development server:
+🔗 **Live Site**:  
+👉 [View Deployed App on Vercel](https://nexium-fatima-farrukh-rana-bl-git-db4dad-fatimarana50s-projects.vercel.app)
+
+---
+
+## 📸 Screenshots
+
+### 1. Homepage
+
+![Homepage](./images/bs-pic1.PNG)
+
+---
+
+### 2. English and Urdu Summary Display
+
+![Summaries](./images/bs-pic2.PNG)
+
+---
+
+### 3. Urdu Summary Section
+
+![Urdu Summary](./images/bs-pic3.PNG)
+
+---
+
+### 4. Export to PDF Button
+
+![PDF Export](./images/bs-pic4.PNG)
+
+---
+
+## ⚙️ Tech Stack
+
+- **Framework**: Next.js (App Router)
+- **Styling**: Tailwind CSS + ShadCN UI
+- **Database**: Supabase (Postgres), MongoDB Atlas
+- **APIs**: Axios, Cheerio for scraping
+- **Deployment**: Vercel
+
+---
+
+## 📁 Local Setup
 
 ```bash
+git clone https://github.com/yourusername/assignment-2.git
+cd assignment-2
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Make sure to create a .env.local file and add the required keys:
+
+env
+Copy
+Edit
+SUPABASE_URL=your_supabase_url
+SUPABASE_ANON_KEY=your_anon_key
+MONGODB_URI=your_mongodb_uri
+MONGODB_DB_NAME=your_db_name
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+👩‍💻 Developed by
+Fatima Rana
+GitHub:https://github.com/FatimaRana50 • LinkedIn:https://www.linkedin.com/in/fatima-farrukh-rana-ba23bb30b/
